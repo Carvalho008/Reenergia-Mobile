@@ -11,3 +11,18 @@
 - [Pedro Levy](https://github.com/levyponciano)
 
 ---
+---
+
+## 🚀 Como rodar o projeto
+
+Projeto desenvolvido com [React Native](https://reactnative.dev/) e [Expo](https://expo.dev/)
+
+```bash
+cd .\reenergia\
+npm install
+npm start
+````
+
+Acesse em: [http://localhost:8081](http://localhost:8081)
+
+---
