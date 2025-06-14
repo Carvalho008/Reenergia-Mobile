@@ -11,7 +11,6 @@
 - [Pedro Levy](https://github.com/levyponciano)
 
 ---
----
 
 ## 🚀 Como rodar o projeto
 
