@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 import { colors } from '@/constants/Colors';
 import { globalStyles } from '@/constants/Styles';
@@ -17,8 +17,27 @@ export default function HomeScreen() {
         <Text style={[fonts.s, { color: colors.gray }]}>Compare fontes, entenda os impactos e
           tome decisões conscientes.</Text>
       </View>
+      <View style={styles.introImgContainer}>
+        <Image
+          source={require('@/assets/images/intro-img.png')}
+          style={styles.introImg}
+          resizeMode='contain'
+        />
+      </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  introImgContainer: {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+  },
+  introImg: {
+    width: '100%',
+    height: '100%',
+  }
+});
