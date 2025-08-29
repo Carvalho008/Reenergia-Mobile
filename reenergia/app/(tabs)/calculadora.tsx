@@ -5,7 +5,7 @@ import { colors } from '@/constants/Colors';
 import { globalStyles } from '@/constants/Styles';
 import { fonts } from '@/constants/Typografy';
 
-import Header from '../components/Header';
+import Header from '../../components/ui/Header';
 
 export default function CalculadoraScreen() {
 
