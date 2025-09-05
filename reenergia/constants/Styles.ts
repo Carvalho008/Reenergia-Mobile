@@ -25,6 +25,7 @@ export const globalStyles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
+        alignItems: 'center',
         paddingTop: 12,
         paddingBottom: 12,
         paddingLeft: 20,
@@ -32,7 +33,7 @@ export const globalStyles = StyleSheet.create({
         gap: 10,
         borderRadius: 5,
         fontSize: 18,
-        fontFamily: 'Arial',
+        fontFamily: 'Sans-Serif',
     },
     bPrimary: {
         fontWeight: 'bold',
