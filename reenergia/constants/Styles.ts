@@ -20,5 +20,37 @@ export const globalStyles = StyleSheet.create({
         gap: 10,
         borderRadius: 5,
         backgroundColor: colors.greenMinus2,
-    }
+    },
+    button: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        paddingTop: 12,
+        paddingBottom: 12,
+        paddingLeft: 20,
+        paddingRight: 20,
+        gap: 10,
+        borderRadius: 5,
+        fontSize: 18,
+        fontFamily: 'Arial',
+    },
+    bPrimary: {
+        fontWeight: 'bold',
+        backgroundColor: colors.green,
+        color: colors.white,
+    },
+    bPrimaryPress: {
+        backgroundColor: colors.green1
+    },
+    bSecondary: {
+        color: colors.gray1,
+        borderWidth: 2,
+        borderColor: colors.gray1,
+    },
+    bSecondaryPress: {
+        color: colors.green,
+        backgroundColor: colors.green1,
+        borderColor: colors.green1,
+    },
+
 });
