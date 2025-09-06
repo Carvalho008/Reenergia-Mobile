@@ -53,5 +53,17 @@ export const globalStyles = StyleSheet.create({
         backgroundColor: colors.green1,
         borderColor: colors.green1,
     },
+    input : {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        padding: 10,
+        gap: 5,
+        borderWidth: 1,
+        borderColor: colors.gray1,
+        borderRadius: 5,
+        fontSize: 18,
+        color: colors.gray,
+    }
 
 });
