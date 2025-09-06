@@ -54,6 +54,16 @@ export default function TabLayout() {
           ),
         }}
       />
+      
+      <Tabs.Screen
+        name="login"
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="person-sharp" size={30} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
